@@ -1,0 +1,250 @@
+Script started on 2026-10-15 00:56:38+05:00 [TERM="dumb" TTY="/dev/pts/0" COLUMNS="145" LINES="35"]
+sameer@sameer-tariq-laptop:~$ pwd
+/home/sameer
+sameer@sameer-tariq-laptop:~$ ls
+ Desktop     Downloads	 Pictures   Templates  'earch john'   lab3-wordlist.txt	  session_log.txt   snap
+ Documents   Music	 Public	    Videos      hashes.txt    private.txt	  shared.txt
+sameer@sameer-tariq-laptop:~$ ls /usr
+bin  games  include  lib  lib64	 libexec  local	 sbin  share  src
+sameer@sameer-tariq-laptop:~$ ls ~ /usr
+/home/sameer:
+ Desktop     Downloads	 Pictures   Templates  'earch john'   lab3-wordlist.txt	  session_log.txt   snap
+ Documents   Music	 Public	    Videos      hashes.txt    private.txt	  shared.txt
+
+/usr:
+bin  games  include  lib  lib64	 libexec  local	 sbin  share  src
+sameer@sameer-tariq-laptop:~$ ls -a
+ .		 .bash_logout   .config	   .gnupg      .pki	  .vscode-shared   Music       Videos		   private.txt
+ ..		 .bashrc        .copilot   .john       .profile	  Desktop	   Pictures   'earch john'	   session_log.txt
+ .antigravity	 .cache	        .dotnet	   .local      .ssh	  Documents	   Public      hashes.txt	   shared.txt
+ .bash_history	 .cc-switch     .gemini	   .opencode   .vscode	  Downloads	   Templates   lab3-wordlist.txt   snap
+sameer@sameer-tariq-laptop:~$ ls -d
+.
+sameer@sameer-tariq-laptop:~$ ls -h
+ Desktop     Downloads	 Pictures   Templates  'earch john'   lab3-wordlist.txt	  session_log.txt   snap
+ Documents   Music	 Public	    Videos      hashes.txt    private.txt	  shared.txt
+sameer@sameer-tariq-laptop:~$ ls -r
+ snap	      session_log.txt   lab3-wordlist.txt  'earch john'	  Templates   Pictures	 Downloads   Desktop
+ shared.txt   private.txt       hashes.txt	    Videos	  Public      Music	 Documents
+sameer@sameer-tariq-laptop:~$ ls -S
+'earch john'   Desktop	  Videos   snap	       Downloads   hashes.txt	       shared.txt    session_log.txt
+ Music	       Pictures	  Public   Documents   Templates   lab3-wordlist.txt   private.txt
+sameer@sameer-tariq-laptop:~$ ls =t
+ls: cannot access '=t': No such file or directory
+sameer@sameer-tariq-laptop:~$ ls -t
+ Downloads	   snap	        lab3-wordlist.txt   shared.txt	  Pictures   Desktop   Public	   Templates
+ session_log.txt   hashes.txt  'earch john'	    private.txt	  Music	     Videos    Documents
+sameer@sameer-tariq-laptop:~$ ls -l
+total 60
+drwxr-xr-x 2 sameer sameer 4096 Oct  2 22:05  Desktop
+drwxr-xr-x 2 sameer sameer 4096 Oct  2 22:05  Documents
+drwxr-xr-x 3 sameer sameer 4096 Oct 15 00:57  Downloads
+drwxr-xr-x 2 sameer sameer 4096 Oct  2 22:05  Music
+drwxr-xr-x 3 sameer sameer 4096 Oct  4 22:20  Pictures
+drwxr-xr-x 2 sameer sameer 4096 Oct  2 22:05  Public
+drwxr-xr-x 2 sameer sameer 4096 Oct  2 22:05  Templates
+drwxr-xr-x 2 sameer sameer 4096 Oct  2 22:05  Videos
+-rw-r--r-- 1 sameer sameer 5825 Oct 11 22:17 'earch john'
+-rw-rw-r-- 1 sameer sameer  214 Oct 11 22:22  hashes.txt
+-rw-rw-r-- 1 sameer sameer   45 Oct 11 22:19  lab3-wordlist.txt
+-rw------- 1 sameer sameer   16 Oct  4 22:26  private.txt
+-rw-rw-r-- 1 sameer sameer    0 Oct 15 00:56  session_log.txt
+-rw-rw---- 1 sameer 1001     30 Oct  4 22:41  shared.txt
+drwx------ 8 sameer sameer 4096 Oct 11 22:30  snap
+sameer@sameer-tariq-laptop:~$ cd "De      ls
+ Desktop     Downloads	 Pictures   Templates  'earch john'   lab3-wordlist.txt	  session_log.txt   snap
+ Documents   Music	 Public	    Videos      hashes.txt    private.txt	  shared.txt
+sameer@sameer-tariq-laptop:~$ cd "Dp ownloads"
+sameer@sameer-tariq-laptop:~/Downloads$ cd ..
+sameer@sameer-tariq-laptop:~$ cd /dev/    Dw es       cd /hp ome/me/Desktop
+bash: cd: /home/me/Desktop: No such file or directory
+sameer@sameer-tariq-laptop:~$ cd "DE esktp o       Desktop
+sameer@sameer-tariq-laptop:~/Desktop$ 
+sameer@sameer-tariq-laptop:~/Desktop$ mkdir newf    newdirectory                  cd ..
+sameer@sameer-tariq-laptop:~$ cd Deo  ownloads
+sameer@sameer-tariq-laptop:~/Downloads$ mkdir n NEWD _DirectoryW_Directory sameer@sameer-tariq-laptop:~/Downloads$ mkdir NW_Directory e_Directoryw_Directory
+sameer@sameer-tariq-laptop:~/Downloads$ mkdir New_Directory1 New_de  Directory2
+sameer@sameer-tariq-laptop:~/Downloads$ cp New_Directory1
+cp: missing destination file operand after 'New_Directory1'
+Try 'cp --help' for more information.
+sameer@sameer-tariq-laptop:~/Downloads$ cp New+ -Direcor  tory1
+cp: missing destination file operand after 'New-Directory1'
+Try 'cp --help' for more information.
+sameer@sameer-tariq-laptop:~/Downloads$ cp -    cd New_ _Do irectory1 
+sameer@sameer-tariq-laptop:~/Downloads/New_Directory$ touch file.     labfile.txt  
+sameer@sameer-tariq-laptop:~/Downloads/New_Directory$ ls -l
+total 0
+-rw-rw-r-- 1 sameer sameer 0 Oct 15 01:10 labfile.txt
+sameer@sameer-tariq-laptop:~/Downloads/New_Directory$ cp labfile.tx  t
+cp: missing destination file operand after 'labfile.txt'
+Try 'cp --help' for more information.
+sameer@sameer-tariq-laptop:~/Downloads/New_Directory$ cp "labfile.txt"
+cp: missing destination file operand after 'labfile.txt'
+Try 'cp --help' for more information.
+sameer@sameer-tariq-laptop:~/Downloads/New_Directory$ cp lab   'labfile.txt'
+cp: missing destination file operand after 'labfile.txt'
+Try 'cp --help' for more information.
+sameer@sameer-tariq-laptop:~/Downloads/New_Directory$ c  p --help
+Usage: cp [OPTION]... [-T] SOURCE DEST
+  or:  cp [OPTION]... SOURCE... DIRECTORY
+  or:  cp [OPTION]... -t DIRECTORY SOURCE...
+Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -a, --archive                same as -dR --preserve=all
+      --attributes-only        don't copy the file data, just the attributes
+      --backup[=CONTROL]       make a backup of each existing destination file
+  -b                           like --backup but does not accept an argument
+      --copy-contents          copy contents of special files when recursive
+  -d                           same as --no-dereference --preserve=links
+      --debug                  explain how a file is copied.  Implies -v
+  -f, --force                  if an existing destination file cannot be
+                                 opened, remove it and try again (this option
+                                 is ignored when the -n option is also used)
+  -i, --interactive            prompt before overwrite (overrides a previous -n
+                                  option)
+  -H                           follow command-line symbolic links in SOURCE
+  -l, --link                   hard link files instead of copying
+  -L, --dereference            always follow symbolic links in SOURCE
+  -n, --no-clobber             (deprecated) do not overwrite an existing file
+                                 and do not fail
+ (overrides a -u or 
+                                 previous -i option). See also --update; 
+                                 equivalent to --update=none.
+  -P, --no-dereference         never follow symbolic links in SOURCE
+  -p                           same as --preserve=mode,ownership,timestamps
+      --preserve[=ATTR_LIST]   preserve the specified attributes
+      --no-preserve=ATTR_LIST  don't preserve the specified attributes
+      --parents                use full source file name under DIRECTORY
+  -R, -r, --recursive          copy directories recursively
+      --reflink[=WHEN]         control clone/CoW copies. See below
+      --remove-destination     remove each existing destination file before
+                                 attempting to open it (contrast with --force)
+      --sparse=WHEN            control creation of sparse files. See below
+      --strip-trailing-slashes  remove any trailing slashes from each SOURCE
+                                 argument
+  -s, --symbolic-link          make symbolic links instead of copying
+  -S, --suffix=SUFFIX          override the usual backup suffix
+  -t, --target-directory=DIRECTORY  copy all SOURCE arguments into DIRECTORY
+  -T, --no-target-directory    treat DEST as a normal file
+      --update[=UPDATE]        control which existing files are updated;
+                                 UPDATE={all,none,none-fail,older(default)}
+  -u                           equivalent to --update[=older].  See below
+  -v, --verbose                explain what is being done
+      --keep-directory-symlink  follow existing symlinks to directories
+  -x, --one-file-system        stay on this file system
+  -Z                           set SELinux security context of destination
+                                 file to default type
+      --context[=CTX]          like -Z, or if CTX is specified then set the
+                                 SELinux or SMACK security context to CTX
+      --help        display this help and exit
+      --version     output version information and exit
+
+ATTR_LIST is a comma-separated list of attributes. Attributes are 'mode' for
+permissions (including any ACL and xattr permissions), 'ownership' for user
+and group, 'timestamps' for file timestamps, 'links' for hard links, 'context'
+for security context, 'xattr' for extended attributes, and 'all' for all
+attributes.
+
+By default, sparse SOURCE files are detected by a crude heuristic and the
+corresponding DEST file is made sparse as well.  That is the behavior
+selected by --sparse=auto.  Specify --sparse=always to create a sparse DEST
+file whenever the SOURCE file contains a long enough sequence of zero bytes.
+Use --sparse=never to inhibit creation of sparse files.
+
+UPDATE controls which existing files in the destination are replaced.
+'all' is the default operation when an --update option is not specified,
+and results in all existing files in the destination being replaced.
+'none' is like the --no-clobber option, in that no files in the
+destination are replaced, and skipped files do not induce a failure.
+'none-fail' also ensures no files are replaced in the destination,
+but any skipped files are diagnosed and induce a failure.
+'older' is the default operation when --update is specified, and results
+in files being replaced if they're older than the corresponding source file.
+
+When --reflink[=always] is specified, perform a lightweight copy, where the
+data blocks are copied only when modified.  If this is not possible the copy
+fails, or if --reflink=auto is specified, fall back to a standard copy.
+Use --reflink=never to ensure a standard copy is performed.
+
+The backup suffix is '~', unless set with --suffix or SIMPLE_BACKUP_SUFFIX.
+The version control method may be selected via the --backup option or through
+the VERSION_CONTROL environment variable.  Here are the values:
+
+  none, off       never make backups (even if --backup is given)
+  numbered, t     make numbered backups
+  existing, nil   numbered if numbered backups exist, simple otherwise
+  simple, never   always make simple backups
+
+As a special case, cp makes a backup of SOURCE when the force and backup
+options are given and SOURCE and DEST are the same name for an existing,
+regular file.
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Full documentation <https://www.gnu.org/software/coreutils/cp>
+or available locally via: info '(coreutils) cp invocation'
+sameer@sameer-tariq-laptop:~/Downloads/New_Directory$ cp labfile.txt labfile_copy.txt
+sameer@sameer-tariq-laptop:~/Downloads/New_Directory$ ls -l
+total 0
+-rw-rw-r-- 1 sameer sameer 0 Oct 15 01:10 labfile.txt
+-rw-rw-r-- 1 sameer sameer 0 Oct 15 01:13 labfile_copy.txt
+sameer@sameer-tariq-laptop:~/Downloads/New_Directory$ cp labfile.txt ../New_Directory1/
+sameer@sameer-tariq-laptop:~/Downloads/New_Directory$ cp -r ../New_Directory1 ../New_Directory2/
+sameer@sameer-tariq-laptop:~/Downloads/New_Directory$ mv labfile_copy.txt renamed.txt
+sameer@sameer-tariq-laptop:~/Downloads/New_Directory$ mv renamed.txt ../
+sameer@sameer-tariq-laptop:~/Downloads/New_Directory$ ls
+labfile.txt
+sameer@sameer-tariq-laptop:~/Downloads/New_Directory$ ls ../
+'Antigravity IDE.tar.gz'	      'For lab 3.docx'						  New_Directory
+ CC-Switch-v3.20.4-Linux-x86_64.deb   'IS Lab 3 F24-0916 M Sameer Tariq.docx'			  New_Directory1
+'F24-0909(IS-LAB-3) - jibran.docx'     Information_Security_Lab_Manual.docx			  New_Directory2
+'F24-0916 M_Sameer Tariq Lab 02.doc'   Lab3_Password_Security_Report.docx			  microsoft-edge-stable_154.0.4258.53-1_amd64.deb
+'F24-0916 M_Sameer Tariq Lab 02.pdf'  'Linux Security Lab Progress Guide - Google Gemini_files'	  renamed.txt
+sameer@sameer-tariq-laptop:~/Downloads/New_Directory$ ls ../New_Directory1/
+labfile.txt
+sameer@sameer-tariq-laptop:~/Downloads/New_Directory$ ls ../New_Directory2/
+New_Directory1
+sameer@sameer-tariq-laptop:~/Downloads/New_Directory$ rm labfile.txt
+sameer@sameer-tariq-laptop:~/Downloads/New_Directory$ ls
+sameer@sameer-tariq-laptop:~/Downloads/New_Directory$ rmdir ../New_Directory2
+rmdir: failed to remove '../New_Directory2': Directory not empty
+sameer@sameer-tariq-laptop:~/Downloads/New_Directory$ rm -r ../New_Directory2
+sameer@sameer-tariq-laptop:~/Downloads/New_Directory$ touch notes.txt
+sameer@sameer-tariq-laptop:~/Downloads/New_Directory$ echo "Linux is easy to learn" > notes.txt" > notes.txt " > notes.txt " > notes.txt " > notes.txt " > notes.txt " > notes.txt " > notes.txt " > notes.txt " > notes.txt " > notes.txt " > notes.txt " > notes.txt " > notes.txt " > notes.txt " > notes.txt " > notes.txt " > notes.txt " > notes.txt " > notes.txt " > notes.txt " > notes.txt " > notes.txt I" > notes.txt " > notes.txta" > notes.txtm" > notes.txt " > notes.txtd" > notes.txto" > notes.txti" > notes.txtg" > notes.txt" > notes.txt n" > notes.txtg" > notes.txt " > notes.txtL" > notes.txtn" > notes.txt" > notes.txt i" > notes.txt" > notes.txt " > notes.txt L" > notes.txta" > notes.txtb" > notes.txt " > notes.txtM" > notes.txta" > notes.txtn" > notes.txtu" > notes.txta" > notes.txtl" > notes.txt " > notes.txt3" > notes.txt " > notes.txth" > notes.txte" > notes.txth" > notes.txte" > notes.txth" > notes.txte" > notes.txt " > notes.txt" > notes.txt 
+sameer@sameer-tariq-laptop:~/Downloads/New_Directory$ cat notes.txt
+I am doing Lab Manual 3 hehehe
+sameer@sameer-tariq-laptop:~/Downloads/New_Directory$ file notes.txt
+notes.txt: ASCII text
+sameer@sameer-tariq-laptop:~/Downloads/New_Directory$ ls > files.txt
+sameer@sameer-tariq-laptop:~/Downloads/New_Directory$ cat files.txt
+files.txt
+notes.txt
+sameer@sameer-tariq-laptop:~/Downloads/New_Directory$ echo "Another line" >> files.txt" >> files.txt " >> files.txt " >> files.txt " >> files.txt " >> files.txt " >> files.txt " >> files.txt " >> files.txt " >> files.txt " >> files.txt " >> files.txt " >> files.txt H" >> files.txta" >> files.txth" >> files.txta" >> files.txth" >> files.txta" >> files.txth" >> files.txta" >> files.txth" >> files.txt " >> files.txt
+sameer@sameer-tariq-laptop:~/Downloads/New_Directory$ cat files.txt
+files.txt
+notes.txt
+Hahahahah 
+sameer@sameer-tariq-laptop:~/Downloads/New_Directory$ ls | less
+WARNING: terminal is not fully functional
+Press RETURN to continue 
+files.txt
+notes.txt
+(END)sameer@sameer-tariq-laptop:~/Downloads/New_Directory$ cat < notes.txt
+I am doing Lab Manual 3 hehehe
+sameer@sameer-tariq-laptop:~/Downloads/New_Directory$ wc -l < notes.txt
+1
+sameer@sameer-tariq-laptop:~/Downloads/New_Directory$ cp notes.txt notes_backup.txt
+sameer@sameer-tariq-laptop:~/Downloads/New_Directory$ mv notes_backup.txt backup.txt
+sameer@sameer-tariq-laptop:~/Downloads/New_Directory$ ls -l
+total 12
+-rw-rw-r-- 1 sameer sameer 31 Oct 15 01:19 backup.txt
+-rw-rw-r-- 1 sameer sameer 31 Oct 15 01:17 files.txt
+-rw-rw-r-- 1 sameer sameer 31 Oct 15 01:17 notes.txt
+sameer@sameer-tariq-laptop:~/Downloads/New_Directory$ pwd
+/home/sameer/Downloads/New_Directory
+sameer@sameer-tariq-laptop:~/Downloads/New_Directory$ cd ..
+sameer@sameer-tariq-laptop:~/Downloads$ cd ~/Downloads/New_Directory
+sameer@sameer-tariq-laptop:~/Downloads/New_Directory$ exit
+exit
+
+Script done on 2026-10-15 01:21:51+05:00 [COMMAND_EXIT_CODE="0"]
